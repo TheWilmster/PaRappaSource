@@ -60,6 +60,29 @@ void Compo_LoadTim(u8 *buffer) //FUN_8001ae7c
 	}
 }
 
+void Compo_SwapScreen(int param_1) //FUN_8001b120
+{
+	RECT dst = {0, 0, 320, 240};
+	int unknown_bool; // i gotta figure out what to name this later
+	int psdidx = GsGetActiveBuff();
+	if (param_1 == 0) {
+		if (psdidx == 0) {
+			dst.y = 0;
+		} else {
+			dst.y = 240;
+		}
+		unknown_bool = psdidx == 0;
+	} else {
+		if (psdidx == 0) {
+			dst.y = 240;
+		} else {
+			dst.y = 0;
+		}
+		unknown_bool = psdidx != 0;
+	}
+	MoveImage(&dst, 0, -unknown_bool & 240);
+}
+
 void Compo_ClearScreen(u8 r, u8 g, u8 b) //FUN_8001b1b0
 {
 	RECT dst = {0, 0, 320, 480};
@@ -181,7 +204,7 @@ void Compo_Masaya_FadeLoad(int x, int y, int i) //FUN_8001c16c
 	DrawSync(0);
 }
 
-void Compo_Masaya_Init(void) //FUN_8001c1b8
+void Compo_Masaya_Init(void) //FUN_8001c1e8
 {
 	//Load Tim and initialize fade
 	Compo_LoadTim_2(tim_masaya, 1);
@@ -198,6 +221,12 @@ void Compo_InitGs(void) //FUN_8001c470
 	GsInit3D();
 	GsSetProjection(440);
 	Compo_ClearScreen(0, 0, 0);
+}
+
+void FUN_8001c550(short x,short y,const CompoSprite *compo_sprite,u16 pri) //unsure what to name the function
+{
+  Compo_FastSprite((int)x,(int)y,compo_sprite,0,0,pri, &compo_ot[compo_activebuff].length);
+  return;
 }
 
 void Compo_Clear(int i) //FUN_8001e374
@@ -309,4 +338,11 @@ void Compo_Init(void) //FUN_8001ed94
 {
 	Compo_InitGs();
 	Compo_InitOt();
+}
+
+
+// will move this later... and also give it a name
+void FUN_80040ca4(int ordering_table[])
+{
+  	DrawOTag(ordering_table[16]);
 }

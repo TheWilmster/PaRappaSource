@@ -96,12 +96,14 @@ void App_Init(void) //FUN_800154f4
 {
 	SetMem(2);
 	ResetCallback();
-	Compo_Init();
-	Memory_Init();
-	CD_Init();
-	Rap_Init();
-	VText_Init();
-	
+	Compo_Init();  //FUN_8001ed94
+	Memory_Init(); //FUN_80025a00
+	CD_Init();     //FUN_8001a1cc
+	Rap_Init();    //FUN_80026e4c
+	VText_Init();  //FUN_80027fac
+	//FUN_8001635c(1,1,1,0);
+	//FUN_80016a80();
+
 	srand(VSync(-1));
 }
 
@@ -184,6 +186,25 @@ void App_Loop(void) //FUN_80027fac
 		app_scenefunc[scene].init(&vdata_scene[scene].name, scene);
 		int next_scene = app_scenefunc[scene].loop(scene);
 		
+		/*int DAT_800916d0; //placehgolder (referenced on several occasions)
+		int DAT_800916ee; //also placeholder (never referenced even fucking once) 
+		int DAT_800916d4; //guess what
+		if (DAT_800916d0 == 1) {
+			DAT_800916ee = next_scene;
+		}
+		if (((scene == 0) && (next_scene > 0)) && (DAT_800916d0 != 1)) {
+			FUN_80015cc4();
+		}
+		int uVar1 = next_scene;
+		if (next_scene < 0) {
+			app_reload = 1;
+			uVar1 = DAT_800916d4;
+			next_scene = scene;
+		}
+		scene = next_scene;
+		DAT_800916d4 = uVar1;
+		FUN_8001e34c();*/
+
 		while(1);
 	}
 }

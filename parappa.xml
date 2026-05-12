@@ -13,7 +13,7 @@
 			publisher     = ""
 			copyright     = ""
 		/>
-		<license file="licensea.dat"/>
+		<!-- <license file="licensea.dat"/> -->
 		
 		<!-- Data directory tree -->
 		<directory_tree>

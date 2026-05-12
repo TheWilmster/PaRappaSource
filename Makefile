@@ -18,7 +18,7 @@ SRCS = \
 	src/scn0/prscn0.c \
 	mips/common/crt0/crt0.s
 
-OVERLAYSCRIPT  ?= overlay.ld
+#OVERLAYSCRIPT  ?= overlay.ld
 OVERLAYSECTION ?= .scn0
 
 CPPFLAGS += -Wall -Wextra -pedantic -Isrc/

@@ -1,0 +1,68 @@
+mipsel-none-elf-gcc -Wall -Wextra -pedantic -Isrc/ -ffunction-sections -mno-gpopt -fomit-frame-pointer -fno-builtin -fno-strict-aliasing -Wno-attributes -march=mips1 -mabi=32 -EL -fno-pic -mno-shared -mno-abicalls -mfp32 -fno-stack-protector -nostdlib -ffreestanding -I/c/cygwin64/home/wcoop/Parappa-PC-Port/mips//psyq/include -g -Os  -M -MT src/boot/prapp.o -MF src/boot/prapp.dep src/boot/prapp.c
+mipsel-none-elf-gcc -Wall -Wextra -pedantic -Isrc/ -ffunction-sections -mno-gpopt -fomit-frame-pointer -fno-builtin -fno-strict-aliasing -Wno-attributes -march=mips1 -mabi=32 -EL -fno-pic -mno-shared -mno-abicalls -mfp32 -fno-stack-protector -nostdlib -ffreestanding -I/c/cygwin64/home/wcoop/Parappa-PC-Port/mips//psyq/include -g -Os  -M -MT src/boot/prmenu.o -MF src/boot/prmenu.dep src/boot/prmenu.c
+mipsel-none-elf-gcc -Wall -Wextra -pedantic -Isrc/ -ffunction-sections -mno-gpopt -fomit-frame-pointer -fno-builtin -fno-strict-aliasing -Wno-attributes -march=mips1 -mabi=32 -EL -fno-pic -mno-shared -mno-abicalls -mfp32 -fno-stack-protector -nostdlib -ffreestanding -I/c/cygwin64/home/wcoop/Parappa-PC-Port/mips//psyq/include -g -Os  -M -MT src/boot/prcd.o -MF src/boot/prcd.dep src/boot/prcd.c
+mipsel-none-elf-gcc -Wall -Wextra -pedantic -Isrc/ -ffunction-sections -mno-gpopt -fomit-frame-pointer -fno-builtin -fno-strict-aliasing -Wno-attributes -march=mips1 -mabi=32 -EL -fno-pic -mno-shared -mno-abicalls -mfp32 -fno-stack-protector -nostdlib -ffreestanding -I/c/cygwin64/home/wcoop/Parappa-PC-Port/mips//psyq/include -g -Os  -M -MT src/boot/prcompo.o -MF src/boot/prcompo.dep src/boot/prcompo.c
+mipsel-none-elf-gcc -Wall -Wextra -pedantic -Isrc/ -ffunction-sections -mno-gpopt -fomit-frame-pointer -fno-builtin -fno-strict-aliasing -Wno-attributes -march=mips1 -mabi=32 -EL -fno-pic -mno-shared -mno-abicalls -mfp32 -fno-stack-protector -nostdlib -ffreestanding -I/c/cygwin64/home/wcoop/Parappa-PC-Port/mips//psyq/include -g -Os  -M -MT src/boot/prvdatal.o -MF src/boot/prvdatal.dep src/boot/prvdatal.c
+mipsel-none-elf-gcc -Wall -Wextra -pedantic -Isrc/ -ffunction-sections -mno-gpopt -fomit-frame-pointer -fno-builtin -fno-strict-aliasing -Wno-attributes -march=mips1 -mabi=32 -EL -fno-pic -mno-shared -mno-abicalls -mfp32 -fno-stack-protector -nostdlib -ffreestanding -I/c/cygwin64/home/wcoop/Parappa-PC-Port/mips//psyq/include -g -Os  -M -MT src/boot/prmain.o -MF src/boot/prmain.dep src/boot/prmain.c
+mipsel-none-elf-gcc -Wall -Wextra -pedantic -Isrc/ -ffunction-sections -mno-gpopt -fomit-frame-pointer -fno-builtin -fno-strict-aliasing -Wno-attributes -march=mips1 -mabi=32 -EL -fno-pic -mno-shared -mno-abicalls -mfp32 -fno-stack-protector -nostdlib -ffreestanding -I/c/cygwin64/home/wcoop/Parappa-PC-Port/mips//psyq/include -g -Os  -M -MT src/boot/prmemory.o -MF src/boot/prmemory.dep src/boot/prmemory.c
+mipsel-none-elf-gcc -Wall -Wextra -pedantic -Isrc/ -ffunction-sections -mno-gpopt -fomit-frame-pointer -fno-builtin -fno-strict-aliasing -Wno-attributes -march=mips1 -mabi=32 -EL -fno-pic -mno-shared -mno-abicalls -mfp32 -fno-stack-protector -nostdlib -ffreestanding -I/c/cygwin64/home/wcoop/Parappa-PC-Port/mips//psyq/include -g -Os  -M -MT src/boot/prrap.o -MF src/boot/prrap.dep src/boot/prrap.c
+mipsel-none-elf-gcc -Wall -Wextra -pedantic -Isrc/ -ffunction-sections -mno-gpopt -fomit-frame-pointer -fno-builtin -fno-strict-aliasing -Wno-attributes -march=mips1 -mabi=32 -EL -fno-pic -mno-shared -mno-abicalls -mfp32 -fno-stack-protector -nostdlib -ffreestanding -I/c/cygwin64/home/wcoop/Parappa-PC-Port/mips//psyq/include -g -Os  -M -MT src/boot/prvtext.o -MF src/boot/prvtext.dep src/boot/prvtext.c
+mipsel-none-elf-gcc -Wall -Wextra -pedantic -Isrc/ -ffunction-sections -mno-gpopt -fomit-frame-pointer -fno-builtin -fno-strict-aliasing -Wno-attributes -march=mips1 -mabi=32 -EL -fno-pic -mno-shared -mno-abicalls -mfp32 -fno-stack-protector -nostdlib -ffreestanding -I/c/cygwin64/home/wcoop/Parappa-PC-Port/mips//psyq/include -g -Os  -M -MT src/scn0/prscn0.o -MF src/scn0/prscn0.dep src/scn0/prscn0.c
+touch mips/common/crt0/crt0.dep
+mipsel-none-elf-gcc  -Wall -Wextra -pedantic -Isrc/ -ffunction-sections -mno-gpopt -fomit-frame-pointer -fno-builtin -fno-strict-aliasing -Wno-attributes -march=mips1 -mabi=32 -EL -fno-pic -mno-shared -mno-abicalls -mfp32 -fno-stack-protector -nostdlib -ffreestanding -I/c/cygwin64/home/wcoop/Parappa-PC-Port/mips//psyq/include -g -Os  -c -o src/boot/prapp.o src/boot/prapp.c
+src/boot/prapp.c: In function 'App_ReadOverlay':
+src/boot/prapp.c:90:9: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   90 |         printf("loading overlay %s\n", cd_file->path);
+      |         ^~~~~~
+src/boot/prapp.c:33:1: note: 'printf' is defined in header '<stdio.h>'; did you forget to '#include <stdio.h>'?
+   32 | #include "scn0/prscn0.h"
+  +++ |+#include <stdio.h>
+   33 | 
+src/boot/prapp.c: In function 'App_Loop':
+src/boot/prapp.c:184:43: warning: passing argument 1 of 'app_scenefunc[scene].init' from incompatible pointer type [-Wincompatible-pointer-types]
+  184 |                 app_scenefunc[scene].init(&vdata_scene[scene].name, scene);
+      |                                           ^~~~~~~~~~~~~~~~~~~~~~~~
+      |                                           |
+      |                                           char **
+src/boot/prapp.c:184:43: note: expected 'VData_Scene *' but argument is of type 'char **'
+src/boot/prapp.c:185:21: warning: unused variable 'next_scene' [-Wunused-variable]
+  185 |                 int next_scene = app_scenefunc[scene].loop(scene);
+      |                     ^~~~~~~~~~
+src/boot/prapp.c:156:13: warning: variable 'scene_prev' set but not used [-Wunused-but-set-variable]
+  156 |         int scene_prev = 0, scene = 0;
+      |             ^~~~~~~~~~
+mipsel-none-elf-gcc  -Wall -Wextra -pedantic -Isrc/ -ffunction-sections -mno-gpopt -fomit-frame-pointer -fno-builtin -fno-strict-aliasing -Wno-attributes -march=mips1 -mabi=32 -EL -fno-pic -mno-shared -mno-abicalls -mfp32 -fno-stack-protector -nostdlib -ffreestanding -I/c/cygwin64/home/wcoop/Parappa-PC-Port/mips//psyq/include -g -Os  -c -o src/boot/prmenu.o src/boot/prmenu.c
+mipsel-none-elf-gcc  -Wall -Wextra -pedantic -Isrc/ -ffunction-sections -mno-gpopt -fomit-frame-pointer -fno-builtin -fno-strict-aliasing -Wno-attributes -march=mips1 -mabi=32 -EL -fno-pic -mno-shared -mno-abicalls -mfp32 -fno-stack-protector -nostdlib -ffreestanding -I/c/cygwin64/home/wcoop/Parappa-PC-Port/mips//psyq/include -g -Os  -c -o src/boot/prcd.o src/boot/prcd.c
+mipsel-none-elf-gcc  -Wall -Wextra -pedantic -Isrc/ -ffunction-sections -mno-gpopt -fomit-frame-pointer -fno-builtin -fno-strict-aliasing -Wno-attributes -march=mips1 -mabi=32 -EL -fno-pic -mno-shared -mno-abicalls -mfp32 -fno-stack-protector -nostdlib -ffreestanding -I/c/cygwin64/home/wcoop/Parappa-PC-Port/mips//psyq/include -g -Os  -c -o src/boot/prcompo.o src/boot/prcompo.c
+mipsel-none-elf-gcc  -Wall -Wextra -pedantic -Isrc/ -ffunction-sections -mno-gpopt -fomit-frame-pointer -fno-builtin -fno-strict-aliasing -Wno-attributes -march=mips1 -mabi=32 -EL -fno-pic -mno-shared -mno-abicalls -mfp32 -fno-stack-protector -nostdlib -ffreestanding -I/c/cygwin64/home/wcoop/Parappa-PC-Port/mips//psyq/include -g -Os  -c -o src/boot/prvdatal.o src/boot/prvdatal.c
+src/boot/prvdatal.c:16:17: warning: ISO C forbids empty initializer braces [-Wpedantic]
+   16 |                 {},
+      |                 ^
+src/boot/prvdatal.c:18:17: warning: ISO C forbids empty initializer braces [-Wpedantic]
+   18 |                 {},
+      |                 ^
+mipsel-none-elf-gcc  -Wall -Wextra -pedantic -Isrc/ -ffunction-sections -mno-gpopt -fomit-frame-pointer -fno-builtin -fno-strict-aliasing -Wno-attributes -march=mips1 -mabi=32 -EL -fno-pic -mno-shared -mno-abicalls -mfp32 -fno-stack-protector -nostdlib -ffreestanding -I/c/cygwin64/home/wcoop/Parappa-PC-Port/mips//psyq/include -g -Os  -c -o src/boot/prmain.o src/boot/prmain.c
+mipsel-none-elf-gcc  -Wall -Wextra -pedantic -Isrc/ -ffunction-sections -mno-gpopt -fomit-frame-pointer -fno-builtin -fno-strict-aliasing -Wno-attributes -march=mips1 -mabi=32 -EL -fno-pic -mno-shared -mno-abicalls -mfp32 -fno-stack-protector -nostdlib -ffreestanding -I/c/cygwin64/home/wcoop/Parappa-PC-Port/mips//psyq/include -g -Os  -c -o src/boot/prmemory.o src/boot/prmemory.c
+mipsel-none-elf-gcc  -Wall -Wextra -pedantic -Isrc/ -ffunction-sections -mno-gpopt -fomit-frame-pointer -fno-builtin -fno-strict-aliasing -Wno-attributes -march=mips1 -mabi=32 -EL -fno-pic -mno-shared -mno-abicalls -mfp32 -fno-stack-protector -nostdlib -ffreestanding -I/c/cygwin64/home/wcoop/Parappa-PC-Port/mips//psyq/include -g -Os  -c -o src/boot/prrap.o src/boot/prrap.c
+mipsel-none-elf-gcc  -Wall -Wextra -pedantic -Isrc/ -ffunction-sections -mno-gpopt -fomit-frame-pointer -fno-builtin -fno-strict-aliasing -Wno-attributes -march=mips1 -mabi=32 -EL -fno-pic -mno-shared -mno-abicalls -mfp32 -fno-stack-protector -nostdlib -ffreestanding -I/c/cygwin64/home/wcoop/Parappa-PC-Port/mips//psyq/include -g -Os  -c -o src/boot/prvtext.o src/boot/prvtext.c
+mipsel-none-elf-gcc  -Wall -Wextra -pedantic -Isrc/ -ffunction-sections -mno-gpopt -fomit-frame-pointer -fno-builtin -fno-strict-aliasing -Wno-attributes -march=mips1 -mabi=32 -EL -fno-pic -mno-shared -mno-abicalls -mfp32 -fno-stack-protector -nostdlib -ffreestanding -I/c/cygwin64/home/wcoop/Parappa-PC-Port/mips//psyq/include -g -Os  -c -o src/scn0/prscn0.o src/scn0/prscn0.c
+src/scn0/prscn0.c: In function 'Scene0_Init':
+src/scn0/prscn0.c:15:31: warning: unused parameter 'scene_vdata' [-Wunused-parameter]
+   15 | void Scene0_Init(VData_Scene *scene_vdata, int scene) //FUN_801c4260
+      |                  ~~~~~~~~~~~~~^~~~~~~~~~~
+src/scn0/prscn0.c:15:48: warning: unused parameter 'scene' [-Wunused-parameter]
+   15 | void Scene0_Init(VData_Scene *scene_vdata, int scene) //FUN_801c4260
+      |                                            ~~~~^~~~~
+src/scn0/prscn0.c: In function 'Scene0_Loop':
+src/scn0/prscn0.c:20:21: warning: unused parameter 'scene' [-Wunused-parameter]
+   20 | int Scene0_Loop(int scene) //FUN_801c4dc4
+      |                 ~~~~^~~~~
+At top level:
+src/scn0/prscn0.c:6:19: warning: 'rcsid' defined but not used [-Wunused-const-variable=]
+    6 | static const char rcsid[] = "@(#)prscn0.c: version 01-00 95/10/10 00:00:00";
+      |                   ^~~~~
+mipsel-none-elf-gcc -march=mips1 -mabi=32 -EL -fno-pic -mno-shared -mno-abicalls -mfp32 -fno-stack-protector -nostdlib -ffreestanding -I/c/cygwin64/home/wcoop/Parappa-PC-Port/mips/ -g -c -o mips/common/crt0/crt0.o mips/common/crt0/crt0.s
+mipsel-none-elf-gcc -g -o parappa.elf src/boot/prapp.o src/boot/prmenu.o src/boot/prcd.o src/boot/prcompo.o src/boot/prvdatal.o src/boot/prmain.o src/boot/prmemory.o src/boot/prrap.o src/boot/prvtext.o src/scn0/prscn0.o mips/common/crt0/crt0.o -Wl,--start-group -lapi -lc2 -lcd -lds -letc -lgpu -lgs -lgte -lpad -lpress -lsnd -lspu -Wl,--end-group -Wl,-Map=parappa.map -nostdlib -Toverlay.ld -T/c/cygwin64/home/wcoop/Parappa-PC-Port/mips//ps-exe.ld -static -Wl,--gc-sections -march=mips1 -mabi=32 -EL -fno-pic -mno-shared -mno-abicalls -mfp32 -fno-stack-protector -nostdlib -ffreestanding -Wl,--oformat=elf32-littlemips -L/c/cygwin64/home/wcoop/Parappa-PC-Port/mips//psyq/lib -g -Os
+c:/msys64/usr/local/bin/../lib/gcc/mipsel-none-elf/11.2.0/../../../../mipsel-none-elf/bin/ld.exe: cannot open linker script file overlay.ld: No such file or directory
+collect2.exe: error: ld returned 1 exit status
+make: *** [mips/common.mk:65: parappa.elf] Error 1

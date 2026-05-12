@@ -7,7 +7,7 @@
 static const char rcsid[] ATTR_USED = "@(#)prvtext.c: version 01-00 95/10/10 00:00:00";
 
 //VText interface
-void VText_Init(void)
+void VText_Init(void) //FUN_80027fac
 {
 	//Load and open font
 	FntLoad(0x3C0, 0x100);
