@@ -1,0 +1,208 @@
+- [ ] FUN_800139f8
+- [ ] FUN_8001448c
+- [ ] FUN_80015408
+- [ ] FUN_8001545c
+- [ ] FUN_800154b0
+- [x] FUN_800154f4
+- [ ] FUN_80015590
+- [ ] FUN_80015618
+- [ ] FUN_80015700
+- [ ] FUN_80015788
+- [x] FUN_80015a4c
+- [x] FUN_80015b00
+- [x] FUN_80015c20
+- [ ] FUN_80015cc4
+- [x] FUN_80015d18
+- [ ] FUN_80016000
+- [ ] FUN_8001615c
+- [ ] FUN_800161a8
+- [ ] FUN_800161f4
+- [ ] FUN_80016314
+- [ ] FUN_8001635c
+- [ ] FUN_800164b4
+- [ ] FUN_800164f8
+- [ ] FUN_800168dc
+- [ ] FUN_80016a80
+- [x] FUN_80016ab4
+- [x] FUN_80016b84
+- [ ] FUN_80016c8c
+- [ ] FUN_80016d7c
+- [ ] FUN_80016e18
+- [ ] FUN_80016eb8
+- [ ] FUN_80016fc0
+- [ ] FUN_80017008
+- [ ] FUN_8001707c
+- [ ] FUN_800170c4
+- [ ] FUN_8001724c
+- [ ] FUN_800172d4
+- [ ] FUN_80017354
+- [ ] FUN_800173a8
+- [ ] FUN_80017454
+- [ ] FUN_80017524
+- [ ] FUN_80017574
+- [ ] FUN_80017594
+- [ ] FUN_800178c8
+- [ ] FUN_80017900
+- [ ] FUN_800179b4
+- [ ] FUN_80017a10
+- [ ] FUN_80017b08
+- [ ] FUN_80017b18
+- [ ] FUN_80017b60
+- [ ] FUN_80017c08
+- [ ] FUN_80017e58
+- [ ] FUN_80017e6c
+- [ ] FUN_80017ee8
+- [ ] FUN_80017fc4
+- [ ] FUN_80018060
+- [ ] FUN_800180d8
+- [ ] FUN_800181d0
+- [ ] FUN_80018f70
+- [ ] FUN_80018fb0
+- [ ] FUN_800191e4
+- [ ] FUN_80019284
+- [ ] FUN_800193b0
+- [ ] FUN_800193f4
+- [ ] FUN_80019414
+- [x] FUN_8001a1cc (CD_Init)
+- [x] FUN_8001a2b0 (CD_Find)
+- [x] FUN_8001a324 (CD_File_Find)
+- [x] FUN_8001a818 (CD_ReadSectors)
+- [x] FUN_8001a89c (CD_Seek)
+- [x] FUN_8001a8f0 (CD_Read)
+- [x] FUN_8001ac18 (CD_File_Read)
+- [x] FUN_8001acf8 (CD_File_ReadRaw)
+- [x] FUN_8001adec (Compo_LoadTim_2)
+- [x] FUN_8001ae7c (Compo_LoadTim)
+- [x] FUN_8001b120 (Compo_SwapScreen)
+- [x] FUN_8001b1b0 (Compo_ClearScreen)
+- [x] FUN_8001b25c (Compo_SetSprite)
+- [ ] FUN_8001b338
+- [ ] FUN_8001b428
+- [ ] FUN_8001b4e0
+- [x] FUN_8001b590 (Compo_FastSprite)
+- [ ] FUN_8001b5f4
+- [ ] FUN_8001b654
+- [ ] FUN_8001b6c4
+- [ ] FUN_8001b730
+- [ ] FUN_8001b744
+- [ ] FUN_8001b954
+- [ ] FUN_8001be34
+- [ ] FUN_8001bee4
+- [ ] FUN_8001bf38
+- [x] FUN_8001bfc0
+- [x] FUN_8001c05c
+- [x] FUN_8001c0a0
+- [x] FUN_8001c0d0
+- [x] FUN_8001c16c
+- [x] FUN_8001c1e8
+- [x] FUN_8001c470
+- [ ] FUN_8001c4ec
+- [x] FUN_8001c550 (TODO: rename)
+- [ ] FUN_8001c5a8
+- [ ] FUN_8001c604
+- [ ] FUN_8001c668
+- [ ] FUN_8001c6e0
+- [ ] FUN_8001c7a8
+- [ ] FUN_8001c804
+- [ ] FUN_8001c864
+- [ ] FUN_8001ce30
+- [ ] FUN_8001d74c
+- [ ] FUN_8001de08
+- [ ] FUN_8001e33c
+- [ ] FUN_8001e34c
+- [x] FUN_8001e374
+- [x] FUN_8001e3b0
+- [x] FUN_8001e54c
+- [x] FUN_8001e6d0
+- [ ] FUN_8001e750
+- [ ] FUN_8001ea00
+- [ ] FUN_8001ea74
+- [ ] FUN_8001ebf4
+- [x] FUN_8001ed94
+- [ ] FUN_8001eeac
+- [ ] FUN_8001ef14
+- [ ] FUN_8001ef40
+- [ ] FUN_8001f230
+- [ ] FUN_8001f518
+- [ ] FUN_8001f524
+- [ ] FUN_8001f698
+- [ ] FUN_8001fc40
+- [ ] FUN_8001fcbc
+- [ ] FUN_8001fdc0
+- [ ] FUN_8001feb4
+- [ ] FUN_8001ffd4
+
+- [ ] FUN_80020008
+- [ ] FUN_80020110
+- [ ] FUN_80020248
+- [ ] FUN_80020308
+- [ ] FUN_800203d4
+- [ ] FUN_80020568
+- [ ] FUN_80020a3c
+- [ ] FUN_80020be4
+- [ ] FUN_80020f94
+- [ ] FUN_80021594
+- [ ] FUN_80021910
+- [ ] FUN_80021e60
+- [ ] FUN_80022cbc
+- [ ] FUN_80023518
+- [ ] FUN_80023618
+- [ ] FUN_80023f20
+- [ ] FUN_80024308
+- [ ] FUN_80024418
+- [ ] FUN_80024600
+- [ ] FUN_800246a8
+- [ ] FUN_80024e98
+- [ ] FUN_80024f8c
+- [x] FUN_80025a00
+- [x] FUN_80025a34
+- [x] FUN_80025a70
+- [x] FUN_80025af8
+- [x] FUN_80025b28
+- [x] FUN_80025bbc
+- [x] FUN_80025bfc
+- [ ] FUN_80025c44
+- [ ] FUN_80025c64
+- [ ] FUN_80025c8c
+- [ ] FUN_80025d70
+- [ ] FUN_80025dbc
+- [ ] FUN_80026744
+- [ ] FUN_80026784
+- [ ] FUN_800268e4
+- [ ] FUN_80026910
+- [ ] FUN_80026b54
+- [ ] FUN_80026b94
+- [x] FUN_80026e4c
+- [ ] FUN_80026ecc
+- [ ] FUN_80026ef8
+- [x] FUN_80026fa4
+- [x] FUN_80027078
+- [x] FUN_800270d4
+- [x] FUN_800270fc
+- [x] FUN_80027120
+- [ ] FUN_80027194
+- [ ] FUN_800271e4
+- [ ] FUN_800276ec
+- [ ] FUN_8002776c
+- [x] FUN_80027fac
+- [ ] FUN_8002ac20
+- [ ] FUN_8002ac50
+- [ ] FUN_8002eb44
+- [ ] FUN_8002eb70
+- [ ] FUN_8002efd0
+
+- [ ] FUN_80030224
+- [ ] FUN_80030244
+- [ ] FUN_8003623c
+- [ ] FUN_80039650
+- [ ] FUN_8003b0cc
+- [ ] FUN_8003f700
+
+- [ ] FUN_800402c0
+- [ ] FUN_80040ae4
+- [ ] FUN_80040c74
+- [ ] FUN_80040c94
+- [x] FUN_80040ca4 (TODO: rename)
+- [ ] FUN_80040f90
+- [ ] FUN_80048a40
+- [ ] FUN_80048a50
