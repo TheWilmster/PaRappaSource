@@ -2,6 +2,7 @@
 #define PARAPPA_GUARD_BOOT_MENU_H
 
 #include "psx.h"
+#include "pad.h"
 
 //Menu interface
 void Menu_CheckDebug(void); //FUN_80016ab4

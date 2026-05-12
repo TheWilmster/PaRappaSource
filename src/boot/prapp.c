@@ -82,6 +82,7 @@ App_SceneFunc app_scenefunc[9] = { //DAT_80048d28
 //App state
 u16 app_scene;
 u16 app_reload;
+u16 unknownAppVar; //DAT_800916d0
 
 //App interface
 void App_ReadOverlay(CD_File *cd_file)
@@ -148,7 +149,7 @@ void App_Screen_Out(void (*screen_display)(int i), void (*screen_flip)(void)) //
 	}
 }
 
-void App_Loop(void) //FUN_80027fac
+void App_Loop(void) //FUN_80015d18
 {
 	//Run opening
 	Menu_Opening();
@@ -186,23 +187,22 @@ void App_Loop(void) //FUN_80027fac
 		app_scenefunc[scene].init(&vdata_scene[scene].name, scene);
 		int next_scene = app_scenefunc[scene].loop(scene);
 		
-		/*int DAT_800916d0; //placehgolder (referenced on several occasions)
-		int DAT_800916ee; //also placeholder (never referenced even fucking once) 
+		/*int DAT_800916ee; //also placeholder (never referenced even fucking once) 
 		int DAT_800916d4; //guess what
-		if (DAT_800916d0 == 1) {
+		if (unknownAppVar == 1) {
 			DAT_800916ee = next_scene;
 		}
-		if (((scene == 0) && (next_scene > 0)) && (DAT_800916d0 != 1)) {
+		if (((scene == 0) && (next_scene > 0)) && (unknownAppVar != 1)) {
 			FUN_80015cc4();
 		}
-		int uVar1 = next_scene;
+		int temp = next_scene;
 		if (next_scene < 0) {
 			app_reload = 1;
-			uVar1 = DAT_800916d4;
+			temp = DAT_800916d4;
 			next_scene = scene;
 		}
 		scene = next_scene;
-		DAT_800916d4 = uVar1;
+		DAT_800916d4 = temp;
 		FUN_8001e34c();*/
 
 		while(1);

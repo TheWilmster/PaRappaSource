@@ -15,6 +15,7 @@ SRCS = \
 	src/boot/prmemory.c \
 	src/boot/prrap.c \
 	src/boot/prvtext.c \
+	src/boot/prscene.c \
 	src/scn0/prscn0.c \
 	mips/common/crt0/crt0.s
 

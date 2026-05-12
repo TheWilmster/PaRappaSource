@@ -2,6 +2,7 @@
 #define PARAPPA_GUARD_BOOT_PRAPP_H
 
 #include "psx.h"
+#include "pad.h"
 
 //App interface
 void App_Init(void); //FUN_800154f4
