@@ -1,4 +1,16 @@
-#include "prrap.h"
+#include "psx.h";
+#include "prcd.h";
+#include "prvdatal.h";
+
+/*void FUN_80015590(int param_1)
+{
+  FUN_80015408(3);
+  CD_File_Read(&vdata_s0_zcompo_int, 1); // FUN_8001ac18(&PTR_s_\S0\ZCOMPO.INT;1_80054878 + param_1 * 0x5b,1);
+  FUN_8001545c();
+  return;
+}*/
+
+/*#include "prrap.h"
 
 int SceneSwitch(int scene) { // FUN_80015788
     int iVar1;
@@ -49,3 +61,4 @@ int SceneSwitch(int scene) { // FUN_80015788
     iVar1 = FUN_800161a8(local_14);
     return iVar1;
 }
+*/
